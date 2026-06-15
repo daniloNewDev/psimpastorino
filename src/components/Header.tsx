@@ -1,5 +1,5 @@
-import logoName from '../assets/logoname.png'
-import logoHeader from '../assets/logoheader.png'
+import logoName from '../assets/logoName.png'
+import logoHeader from '../assets/logoHeader.png'
 
 const Header = () => {
   return (
