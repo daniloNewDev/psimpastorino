@@ -1,3 +1,5 @@
+import logoName from '../assets/logoname.png'
+import logoHeader from '../assets/logoheader.png'
 
 const Header = () => {
   return (
@@ -7,8 +9,8 @@ const Header = () => {
     >
       <div></div>
       <div className="h-[10vh] flex items-center justify-center">
-        <img className="w-[60%]" src="../public/logoname.png"></img>
-        <img className="h-[80%]" src="../public/logoheader.png"></img>
+        <img className="w-[60%]" src={logoName}></img>
+        <img className="h-[80%]" src={logoHeader}></img>
       </div>
     </header >
   )

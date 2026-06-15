@@ -1,3 +1,9 @@
+import maillogo from '../assets/maillogo.png'
+import phonelogo from '../assets/phonelogo.png'
+import whatslogo from '../assets/whatslogo.png'
+import instalogo from '../assets/instalogo.png'
+import facelogo from '../assets/facelogo.png'
+
 const Footer = () => {
   return (
     <footer className='bg-radial from-[#1E608C] from-0% to-[#144566] via-50% to-[#0F3B54] to-100%
@@ -9,14 +15,14 @@ const Footer = () => {
 
         <a href="tel:+5511997638331" target="_blank" rel="noopener noreferrer">
           <div className='flex items-center justify-start my-2'>
-            <img src="../public/phonelogo.png" className='w-8' />
+            <img src={phonelogo} className='w-8' />
             <h4 className='text-white squada-one-regular text-2xl ml-4'>(11) 9 9763-8331</h4>
           </div>
         </a>
 
         <a href="mailto:">
           <div className='flex items-center'>
-            <img src="../public/maillogo.png" className='w-10' />
+            <img src={maillogo} className='w-10' />
             <h4 className='text-white squada-one-regular text-2xl ml-4'>psimpastorino@gmail.com</h4>
           </div>
         </a>
@@ -30,21 +36,21 @@ const Footer = () => {
 
         <a href="https://api.whatsapp.com/send?phone=5511997638331" target="_blank" rel="noopener noreferrer">
           <div className='flex items-center justify-start my-2'>
-            <img src="../public/whatslogo.png" className='w-8' />
+            <img src={whatslogo} className='w-8' />
             <h4 className='text-white squada-one-regular text-2xl ml-4'>(11) 9 9763-8331</h4>
           </div>
         </a>
 
         <a href="https://www.instagram.com/lemagpastorino/" target="_blank" rel="noopener noreferrer">
           <div className='flex items-center justify-start my-2'>
-            <img src="../public/instalogo.png" className='w-8' />
+            <img src={instalogo} className='w-8' />
             <h4 className='text-white squada-one-regular text-2xl ml-4'>@psimpastorino</h4>
           </div>
         </a>
 
         <a href="https://www.facebook.com/lemagpastorino/" target="_blank" rel="noopener noreferrer">
           <div className='flex items-center justify-start my-2'>
-            <img src="../public/facelogo.png" className='w-8' />
+            <img src={facelogo} className='w-8' />
             <h4 className='text-white squada-one-regular text-2xl ml-4'>@psimpastorino</h4>
           </div>
         </a>
