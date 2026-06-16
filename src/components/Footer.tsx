@@ -11,7 +11,9 @@ const Footer = () => {
     flex flex-col gap-12 items-center justify-around'>
       <div className="flex flex-col items-center gap-3 justify-center">
 
-        <h3 className='font-serif text-2xl h-[10vh] text-white text-center'>Entre em Contato:</h3>
+        <div className="flex flex-col items-center justify-center mt-12">
+          <h3 className='font-serif text-2xl h-[10vh] text-white text-center'>Entre em Contato:</h3>
+        </div>
 
         <a href="tel:+5511997638331" target="_blank" rel="noopener noreferrer">
           <div className='flex items-center justify-start my-2'>
@@ -58,9 +60,9 @@ const Footer = () => {
       </div>
 
       <div className="h-[10vh]">
-        <h4 className='text-[#cfcfcf] font-sans text-sm ml-4 my-4'>Todos direitos reservados a</h4>
-        <h4 className='text-[#cfcfcf] squada-one-regular text-center text-sm'>MPastorino &trade;</h4>
+        <h4 className='text-[#cfcfcf] font-sans text-sm ml-4 my-4'>Todos direitos reservados a Magali Pastorino &trade;</h4>
       </div>
+
     </footer>
   )
 }
