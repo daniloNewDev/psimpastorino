@@ -24,7 +24,7 @@ const Header = () => {
           onClick={() => setOpen(!open)}
           className="flex"
         >
-          <img src={menuhamburger} className="w-[35px] h-[35px] ml-3 mt-auto mb-auto" />
+          <img src={menuhamburger} className="w-[45px] h-[45px] ml-4 mt-auto mb-auto" />
         </button>
 
       </div>
