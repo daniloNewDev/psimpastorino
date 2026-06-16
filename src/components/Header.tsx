@@ -26,7 +26,6 @@ const Header = () => {
         >
           <img src={menuhamburger} className="w-[45px] h-[45px] ml-4 mt-auto mb-auto" />
         </button>
-
       </div>
 
       <div className="h-[10vh] flex items-center justify-center">
@@ -57,11 +56,14 @@ const Header = () => {
             {/* Links */}
             <div
               className="flex flex-col items-center justify-start h-full
-              text-2xl font-sans font-semibold text-[#0F3B54]"
+              text-3xl font-sans font-semibold text-[#3D1876]"
             >
-              <Link className="p-4" to="/" onClick={() => setOpen(false)}>Início</Link>
-              <Link className="p-4" to="/about" onClick={() => setOpen(false)}>Sobre Mim</Link>
-              <Link className="p-4" to="/approach" onClick={() => setOpen(false)}>Abordagem</Link>
+              <Link className="p-2" to="/" onClick={() => setOpen(false)}>Início</Link>
+              <Link className="p-2" to="/about" onClick={() => setOpen(false)}>Sobre Mim</Link>
+              <Link className="p-2" to="/approach" onClick={() => setOpen(false)}>Abordagem</Link>
+              <Link className="p-2" to="/online" onClick={() => setOpen(false)}>Atendimento On-line</Link>
+              <Link className="p-2" to="/enterprises" onClick={() => setOpen(false)}>Empresas</Link>
+              <Link className="p-2" to="/contacts" onClick={() => setOpen(false)}>Contatos</Link>
               <img src={logowatermark} />
             </div>
           </nav>

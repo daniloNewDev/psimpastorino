@@ -1,6 +1,6 @@
 import logowatermark from '../assets/logowatermark.png'
 
-const About: React.FC = () => {
+const Contacts: React.FC = () => {
 
   return (
     <div
@@ -10,7 +10,7 @@ const About: React.FC = () => {
     dark:bg-white"
     >
       <h1>
-        Página "SOBRE MIM" em construção!!!
+        Página "CONTATOS" em construção!!!
       </h1>
 
       <div className="flex flex-col items-center justify-center">
@@ -28,4 +28,4 @@ const About: React.FC = () => {
 
 }
 
-export default About
+export default Contacts
