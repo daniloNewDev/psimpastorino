@@ -12,14 +12,14 @@ import atendimento2 from '../assets/photobaloom/atendimento2.png'
 const HomePage = () => {
   return (
     <div className="w-[100%] h-[100%] overflow-hidden
-    flex flex-col items-center justify-center gap-10 mb-14
+    flex flex-col items-center justify-center gap-10
     bg-linear-to-b from-[#FFDADA] via0% to-[#FFEBEB] via-11% to-[#FFE8E8] via-70% to-[#F5B6B6] via-100%
     dark:bg-white">
 
       <div className="pt-10 mt-[10vh] flex flex-col items-center justify-center gap-5">
 
         <div className="border-b-2 pb-8 border-[#3D1876] ">
-          <h1 className="text 2xl text-[#3D1876] font-bold italic">
+          <h1 className="text-2xl text-[#3D1876] font-sans italic">
             Refletir, entender, ressignificar, transformar.
           </h1>
         </div>
@@ -80,6 +80,7 @@ const HomePage = () => {
         title={"Sua Identidade"}
         description={"A terapia pode ser um espaço seguro para explorar questões pessoais e ganhar clareza sobre a própria identidade."}
       />
+      <div className="mb-10"></div>
 
     </div >
   )
