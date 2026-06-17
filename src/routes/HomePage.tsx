@@ -12,7 +12,7 @@ import atendimento2 from '../assets/photobaloom/atendimento2.png'
 const HomePage = () => {
   return (
     <div className="w-[100%] h-[100%] overflow-hidden
-    flex flex-col items-center justify-center gap-10
+    flex flex-col items-center justify-center gap-10 mb-14
     bg-linear-to-b from-[#FFDADA] via0% to-[#FFEBEB] via-11% to-[#FFE8E8] via-70% to-[#F5B6B6] via-100%
     dark:bg-white">
 

@@ -8,7 +8,7 @@ const BaloomITPProps = ({ image, title, description }: BaloomITPProps) => {
 
   return (
     <div
-      className="bg-amber-50 w-95 h-95 mb-10 mt-10 pt-16 pl-8 pr-8
+      className="bg-amber-50 w-[90%] h-95 my-10 pt-16 px-8
     rounded-tr-4xl rounded-bl-4xl
     shadow-xl"
     >
